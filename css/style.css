@@ -4,9 +4,20 @@
     box-sizing: border-box;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 .header-row {
     height: 75px;
-    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -20,9 +31,13 @@
     border-radius: 50px;
 }
 
+main {
+    margin-top: 75px;
+}
+
 .wrapped {
-    height: calc(100vh-150px);
-    background-color: black;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
 }
 
 .main-conteiner {
@@ -32,7 +47,6 @@
 
 .main-row {
     display: flex;
-    justify-content: space-between;
 }
 
 .coll-14 {
@@ -50,5 +64,4 @@
     color: white;
     position: absolute;
     bottom: 425px;
-    left: 195px
 }
