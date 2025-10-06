@@ -8,6 +8,32 @@
     background-color: black;
 }
 
+.bg-light-gray {
+    background-color: rgb(65, 63, 63);
+}
+
+.cl-red {
+    color: red;
+}
+
+.cl-green {
+    color: green;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    cursor: pointer;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -24,11 +50,19 @@ header {
 }
 
 .header-row button {
-    background-color: gray;
+    background-color: rgb(65, 63, 63);
+    color: white;
+    border: none;
     padding: 0 10px;
     height: 30px;
     margin-right: 5px;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-row h3 {
+    margin-left: 5px;
 }
 
 main {
@@ -64,4 +98,37 @@ main {
     color: white;
     position: absolute;
     bottom: 425px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.footer-row {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.coll-33 {
+    width: calc(100% / 3);
+}
+
+footer button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+footer i {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.btn-end-meet {
+    font-size: 10px;
 }
