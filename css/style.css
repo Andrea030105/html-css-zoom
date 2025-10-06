@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header-row {
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-row button {
+    background-color: gray;
+    padding: 0 10px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
