@@ -19,3 +19,36 @@
     margin-right: 5px;
     border-radius: 50px;
 }
+
+.wrapped {
+    height: calc(100vh-150px);
+    background-color: black;
+}
+
+.main-conteiner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coll-14 {
+    width: calc(100%/7);
+}
+
+.main-row img {
+    height: 100px;
+    width: 200px;
+    position: relative;
+    margin: 5px 0;
+}
+
+.mic-img {
+    color: white;
+    position: absolute;
+    bottom: 425px;
+    left: 195px
+}
