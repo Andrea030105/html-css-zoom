@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* CLASS UTILITY */
+
 .bg-black {
     background-color: black;
 }
@@ -33,6 +35,8 @@
 button {
     cursor: pointer;
 }
+
+/* HEADER */
 
 header {
     position: fixed;
@@ -64,6 +68,8 @@ header {
 .header-row h3 {
     margin-left: 5px;
 }
+
+/* MAIN */
 
 main {
     margin-top: 75px;
@@ -99,6 +105,8 @@ main {
     position: absolute;
     bottom: 425px;
 }
+
+/* FOOTER */
 
 footer {
     position: fixed;
